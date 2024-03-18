@@ -30,10 +30,7 @@ int main(){
 
     printf("Digite sua suposição: ");
     scanf("%d", &s);
-
-    if(s==x){
-        printf("\n\nParabéns!!! Você Acertou na 1° tentativa!!!\n");
-    }else{
+        
         while(s!=x){
             if (s>x){
                 printf("\n\nVocê Errou. Que pena... O número misterioso é menor que isso. Tente novamente.\n\n");
@@ -48,7 +45,6 @@ int main(){
         }
 
         printf("\n\nParabéns!!! Você Acertou na %d° tentativa!!!\n", t);
-    }
         printf("...................................................................");
 
         printf("\n\nDeseja Jogar Novamente? (1)Sim (2)Não\n");
