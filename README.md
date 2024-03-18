@@ -1,0 +1,1 @@
+Código em C de um jogo simples de adivinhação de número de 1 a 10. A cada tentativa errada a tela irá exibir se o número misterioso é maior ou menor. Ao acertar, a tela exibirá a quantidade de tentativas. 
